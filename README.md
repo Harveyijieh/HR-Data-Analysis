@@ -69,7 +69,7 @@ Conclusion
 
 This project helps analyze HR data, identify attrition factors, and visualize workforce trends using PostgreSQL and Tableau/Power BI. Feel free to fork, modify, or contribute!
 
-📌 Author: Harvey Ijieh
+📌 Author: Harvey Ijieh 
 📌 GitHub: [Your GitHub Link]
 📌 License: MIT
 
