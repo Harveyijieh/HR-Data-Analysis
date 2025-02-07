@@ -1,5 +1,5 @@
 # HR Data Analysis
-
+### "Work in progress"
 ## Project Overview 
 This project aims to analyze HR data using PostgreSQL for querying and Tableau for visualization. The goal is to uncover insights related to employee attrition, job satisfaction, and workforce distribution. The analysis will help organizations make data-driven decisions to improve employee retention and satisfaction.
 
@@ -11,33 +11,70 @@ This project aims to analyze HR data using PostgreSQL for querying and Tableau f
 
 - Explore job satisfaction trends and their impact on attrition
 
-- Identify patterns in business travel and attrition
+- (Identify patterns in business travel and attrition)
 
-- Create visual representations of findings using Tableau/Power BI
+- Create visual representations of findings using Tableau
 
 ### Data Source
 The dataset used for this project consists of 1,470 employee records and contains various HR attributes. 
 The data was sourced from an HR analytics dataset, which includes information on employee demographics, job roles, education, attrition, and satisfaction levels.
 
 ### Tools
-- Postgres For querying and data analysis
-    - [Download here](https://www.postgresql.org/)
+- Excel - 
+- Postgres For querying and data analysis [Download here](https://www.postgresql.org/)
 
-- Tableau - For visualization and interactive dashboards
+- Tableau - For visualization and interactive dashboards [Download here](https://www.tableau.com/products/public/download)
 
-- Power BI - Alternative visualization tool for reporting
-
-- GitHub - For version control and project sharing
-
-- CSV Files - Data storage and manipulation
+- GitHub - For version control and project sharing [Sign Up](https://github.com/)
 
 ### Findings 
 
-1 Top Revenue-Generating Products:The product analysis reveals that Côte de Blaye contributes the highest revenue, driving significant sales in the Beverages category.
+- Attrition Rate: The overall attrition rate in the dataset is approximately 16%.
 
-2 Top Revenue-Generating Category:The Beverage category tops all other categories with the highest revenue.
+- Department-Wise Attrition: The Sales and R&D departments have the highest attrition rates.
 
-3 Top Customers:Save-a-lot Markets is the customer with the highest orders and revenue generated.
+- Job Satisfaction vs Attrition: Employees with lower job satisfaction (1-2) are more likely to leave.
+
+- Business Travel Impact: Employees who frequently travel for business tend to have higher attrition rates.
+
+- Age Factor: Younger employees (below 30) show higher attrition compared to older employees.
+
+These insights help HR teams focus on retention strategies by improving job satisfaction, adjusting travel policies, and addressing department-specific concerns.
+
+### SQL Queries and Insights
+#### Employee Gender Distribution
+```
+SELECT 
+    gender, COUNT(*) AS employees
+FROM
+    hrdata
+GROUP BY gender
+ORDER BY employees;
+```
+#### Attrition By Department
+```
+SELECT department, 
+       COUNT(*) AS total_employees, 
+       ROUND(COUNT(CASE WHEN attrition ilike 'Yes' THEN 1 END) * 100.0 / COUNT(*),2) AS attrition_rate
+FROM
+    hrdata
+GROUP BY department
+ORDER BY attrition_rate DESC;
+```
+
+### Visualisation in Tableau
 
 ### Conclusions
-This product performance analysis project using SQL enables us to explore and gain insights from the dataset. SQL queries allows for the conducting of a wide range of analysis, and identifying trends. You are welcome to carryout more analysis and build upon the already provided solutions to meet the need of you analysis.
+Conclusion
+
+This project helps analyze HR data, identify attrition factors, and visualize workforce trends using PostgreSQL and Tableau/Power BI. Feel free to fork, modify, or contribute!
+
+📌 Author: Harvey Ijieh
+📌 GitHub: [Your GitHub Link]
+📌 License: MIT
+
+Happy Coding! 🚀
+
+
+
+You are welcome to carryout more analysis and build upon the already provided solutions to meet the need of you analysis.
