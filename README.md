@@ -46,13 +46,14 @@ These insights help HR teams focus on retention strategies by improving job sati
 ```
 SELECT 
     gender, COUNT(*) AS employees
-FROM
+FROM 
     hrdata
 GROUP BY gender
 ORDER BY employees;
 ```
 #### Attrition By Department
-```
+
+```sql
 SELECT department, 
        COUNT(*) AS total_employees, 
        ROUND(COUNT(CASE WHEN attrition ilike 'Yes' THEN 1 END) * 100.0 / COUNT(*),2) AS attrition_rate
@@ -70,11 +71,12 @@ Conclusion
 This project helps analyze HR data, identify attrition factors, and visualize workforce trends using PostgreSQL and Tableau/Power BI. Feel free to fork, modify, or contribute!
 
 📌 Author: Harvey Ijieh 
+
 📌 GitHub: [Your GitHub Link]
-📌 License: MIT
 
 Happy Coding! 🚀
 
+💻
 
 
 You are welcome to carryout more analysis and build upon the already provided solutions to meet the need of you analysis.
