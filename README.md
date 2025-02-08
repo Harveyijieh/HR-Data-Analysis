@@ -43,7 +43,7 @@ These insights help HR teams focus on retention strategies by improving job sati
 
 ### SQL Queries and Insights
 #### Employee Gender Distribution
-```
+```sql
 SELECT 
     gender, COUNT(*) AS employees
 FROM 
