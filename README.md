@@ -20,8 +20,9 @@ The dataset used for this project consists of 1,470 employee records and contain
 The data was sourced from an HR analytics dataset, which includes information on employee demographics, job roles, education, attrition, and satisfaction levels.
 
 ### Tools
-- Excel - 
-- Postgres For querying and data analysis [Download here](https://www.postgresql.org/)
+- Excel - For Exploring the dataset
+
+- Postgres - For querying and data analysis [Download here](https://www.postgresql.org/)
 
 - Tableau - For visualization and interactive dashboards [Download here](https://www.tableau.com/products/public/download)
 
@@ -70,13 +71,4 @@ Conclusion
 
 This project helps analyze HR data, identify attrition factors, and visualize workforce trends using PostgreSQL and Tableau/Power BI. Feel free to fork, modify, or contribute!
 
-📌 Author: Harvey Ijieh 
-
-📌 GitHub: [Your GitHub Link]
-
-Happy Coding! 🚀
-
 💻
-
-
-You are welcome to carryout more analysis and build upon the already provided solutions to meet the need of you analysis.
