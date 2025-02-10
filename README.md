@@ -2,7 +2,7 @@
 
 ### Project Overview 
 ---
-This project aims to analyze HR data using PostgreSQL for querying and Tableau for visualization. The goal is to uncover insights related to employee attrition and workforce distribution. The analysis will help organizations make data-driven decisions to improve employee retention and satisfaction.
+This project aims to analyse HR data using PostgreSQL for querying and Tableau for visualisation. The goal is to uncover insights related to employee attrition and workforce distribution. The analysis will help organizations make data-driven decisions to improve employee retention and satisfaction.
 
 ### Project Objectives
 
@@ -14,24 +14,22 @@ This project aims to analyze HR data using PostgreSQL for querying and Tableau f
 
 ### Data Source
 The dataset used for this project consists of 1,470 employee records and contains various HR attributes. 
-The data was sourced from an HR analytics dataset, which includes information on employee demographics, job roles, education, attrition, and attrition.
+The data was sourced from a popular HR analytics dataset, which includes information on employee demographics, job roles, education, attrition, and others.
 
 ### Tools
-- Excel - For Exploring the dataset
+- Excel - for exploring the dataset
 
-- Postgres - For querying and data analysis [Download here](https://www.postgresql.org/)
+- Postgres - for querying and data analysis [Download here](https://www.postgresql.org/)
 
-- Tableau - For visualization and interactive dashboards [Download here](https://www.tableau.com/products/public/download)
+- Tableau - for visualisation and interactive dashboards [Download here](https://www.tableau.com/products/public/download)
 
-- GitHub - For version control and project sharing [Sign Up](https://github.com/)
+- GitHub - for version control and project sharing [Sign Up](https://github.com/)
 
 ### Findings 
 
 - Attrition Rate: The overall attrition rate in the dataset is approximately 16%.
 
 - Department-Wise Attrition: The Sales and R&D departments have the highest attrition rates.
-
-- Business Travel Impact: Employees who frequently travel for business tend to have higher attrition rates.
 
 - Age Factor: Younger employees (below 30) show higher attrition compared to older employees.
 
