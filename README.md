@@ -58,7 +58,7 @@ ORDER BY attrition_rate DESC;
 ```
 
 ### Visualisation in Tableau
-
+- [View Dashboard](https://public.tableau.com/app/profile/harvey.ijieh/viz/HRAnalyticsUpload/HRDASHBOARD)
 ### Conclusions
 Conclusion
 
