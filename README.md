@@ -58,10 +58,10 @@ ORDER BY attrition_rate DESC;
 ```
 
 ### Visualisation in Tableau
+For the data visualization aspect of this project, I utilized Tableau. Tableau was used to create interactive and insightful visualizations that helped to better understand and analyze the HR data. Below is the dashbaord created using Tableau:
 - [View Dashboard](https://public.tableau.com/app/profile/harvey.ijieh/viz/HRAnalyticsUpload/HRDASHBOARD)
 ### Conclusions
-Conclusion
 
-This project helps analyze HR data, identify attrition factors, and visualize workforce trends using PostgreSQL and Tableau/Power BI. Feel free to fork, modify, or contribute!
+This project helps analyze HR data, identify attrition factors, and visualize workforce trends using PostgreSQL and Tableau.
 
 💻
