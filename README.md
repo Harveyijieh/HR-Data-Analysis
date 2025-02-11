@@ -1,7 +1,6 @@
 # HR Data Analysis
 
 ### Project Overview 
----
 This project aims to analyse HR data using PostgreSQL for querying and Tableau for visualisation. The goal is to uncover insights related to employee attrition and workforce distribution. The analysis will help organizations make data-driven decisions to improve employee retention and satisfaction.
 
 ### Project Objectives
